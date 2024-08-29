@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.overlay-sidebar{
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cart-sidebar{
+    height: 100%;
+    width: 450px;
+    background-color: white;
+    z-index: 10000;
+    position: fixed;
+    overflow-x: hidden;
+    box-shadow: -5px -5px 5px grey;
+}
+
+.cart-head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 10px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.cart-title{
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+.close-button-sidebar{
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.cart-body{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.another-cart-div{
+    display: flex;
+    padding: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.cart-product-image{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+    border-radius: 8px;
+    
+}
+
+.cart-product-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* background-color: red; */
+    height: 100%;
+    color: black;
+}
+
+.cart-product-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.cart-product-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.checkout-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+}
+
+th{
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-family: 'Roboto';
+    /* border-right: 1px solid grey; */
+}
+
+td{
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-family: 'Roboto';
+    /* border-right: 1px solid grey; */
+}
+
+.checkout-btn{
+    background-color: rgb(19, 19, 44);
+    padding: 20px 80px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+header{
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+
+#logo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 70px;
+    width: 140px;
+}
+
+.website-name{
+    color: rgb(246, 192, 56);
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.nav-ul{
+    margin: 0px 20px
+}
+
+.nav-ul li{
+    margin-left: 20px;
+    display: inline;
+    color: grey;
+    cursor: pointer;
+}
+
+.nav-ul li a{
+    color: grey;
+    text-decoration: none;
+}
+
+.cart-button{
+    background-color: transparent;
+    color: grey;
+    border: none;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.sec-1{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.link-para{
+    margin-top: 20px;
+    margin-left: 300px;
+    color: grey;
+    font-size: 12px;
+}
+
+.heading-para{
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: 'Lexend', 'Anton', sans-serif;
+    color: grey;
+
+}
+
+.sec-div-1{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.products-div{
+    width: 70vw;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    margin: 20px 30px;
+}
+
+.product:hover img{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.product-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-title{
+    margin-top: 5px;
+    color: rgb(49, 44, 44);
+    width: 250px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-price{
+    font-size: 13px;
+    color: grey;
+}
+
+.sec-3{
+    /* background-image: url('blue-furniture.jpg'); */
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../index_images/blue-furniture.jpg');
+    /* background-color: black;
+    background-blend-mode: luminosity; */
+    width: 100vw;
+    height: 100vh;
+    filter: invert(10%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-h{
+    color: #f1f1f1;
+}
+
+.common-h{
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    color: white;
+    font-size: 50px;
+    text-wrap: pretty;
+    margin-bottom: 20px;
+}
+
+#shop-collection{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: yellow;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#shop-collection:hover{
+    box-shadow: 3px 3px 2px black;
+}
+
+
+.logofoot{
+    width: 50px;
+    height: 50px;
+}
+
+.foot-website-name{
+    font-size: 50px;
+    color: rgb(246, 192, 56);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+/* footer{
+    background-color: rgb(131, 131, 156);
+} */
+.flexfoot-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logofoot-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normalfoot-div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+.normalfoot-div ul{
+    list-style-type: none;
+}
+
+.normalfoot-div li{
+    font-weight: 100;
+}
+
+.copyrightfoot-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
